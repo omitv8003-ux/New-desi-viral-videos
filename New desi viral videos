@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+i<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -86,3 +86,4 @@ fetch("https://api.allorigins.win/get?url=" + encodeURIComponent(url))
 
 </body>
 </html>
+<a href="https://example.com/video.mp4" target="_blank">Click here to watch video</a>
