@@ -233,3 +233,51 @@
 
 </body>
   </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viral Video Link</title>
+<style>
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+  .video-link {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    color: white;
+    font-weight: bold;
+    padding: 14px 22px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+  }
+
+  .video-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  }
+
+  .video-link .fire {
+    display: inline-block;
+    margin-left: 6px;
+    animation: pulse 1s infinite;
+  }
+</style>
+</head>
+<body>
+
+<a class="video-link" href="https://example.com/video.mp4" target="_blank">
+  Viral Video Link 🔗👉 <span class="fire">🔥</span>
+</a>
+
+</body>
+</html>
